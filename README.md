@@ -59,8 +59,6 @@ build/distributions/vertx-orbit-*.zip
 
 Restart IntelliJ IDEA after installation.
 
-If an older local build named `Vert.x Lifeline` is installed, remove or disable it before testing Orbit.
-
 ## Development
 
 Run the plugin in a sandbox IDE:
