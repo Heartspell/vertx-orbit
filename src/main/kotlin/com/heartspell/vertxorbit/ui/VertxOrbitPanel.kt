@@ -9,6 +9,7 @@ import com.intellij.ui.JBColor
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBScrollPane
 import com.intellij.ui.components.JBTextArea
+import com.intellij.ui.scale.JBUIScale
 import com.intellij.util.ui.JBUI
 import com.intellij.util.ui.UIUtil
 import com.heartspell.vertxorbit.lifecycle.LifecyclePhase
@@ -466,7 +467,7 @@ class VertxOrbitPanel(
             val radius = JBUI.scale(7)
             val findings = verticle?.findings.orEmpty()
 
-            g2.stroke = BasicStroke(JBUI.scale(1.5f), BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND)
+            g2.stroke = BasicStroke(JBUIScale.scale(1.5f), BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND)
             g2.color = UIUtil.getBoundsColor()
             g2.drawLine(startX + radius, y, startX + gap * (phases.size - 1) - radius, y)
 

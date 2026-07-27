@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.heartspell.vertxorbit"
-version = "0.9.5"
+version = "0.9.6"
 
 kotlin {
     jvmToolchain(21)
