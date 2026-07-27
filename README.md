@@ -6,6 +6,7 @@ It gives the current editor a small lifecycle map: which verticles are in the fi
 
 Author: amirhanordobaev (heartspell)  
 Repository: https://github.com/heartspell/vertx-orbit
+License: MIT
 
 ## What It Shows
 
@@ -80,3 +81,7 @@ Useful checks before packaging:
 ./gradlew clean buildPlugin
 ./gradlew verifyPluginProjectConfiguration
 ```
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
