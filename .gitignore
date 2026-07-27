@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IntelliJ Platform Gradle plugin
+.intellijPlatform/
+
+# Kotlin
+.kotlin/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Local plugin artifacts
+*.zip
+*.jar
+!gradle/wrapper/gradle-wrapper.jar

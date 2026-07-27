@@ -1,0 +1,13 @@
+<html>
+<body>
+<p>
+    Reports risky Kotlin Vert.x verticle lifecycle patterns, including asynchronous
+    <code>startPromise</code>/<code>stopPromise</code> paths that never complete or fail,
+    and coroutine scopes launched from a verticle without cancellation in <code>stop()</code>.
+</p>
+<p>
+    Event bus consumers and timers created inside a Vert.x verticle are treated as Vert.x-managed
+    resources and are shown in the Orbit tool window instead of being reported as leaks.
+</p>
+</body>
+</html>

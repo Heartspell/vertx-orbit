@@ -1,0 +1,55 @@
+<idea-plugin>
+    <id>com.heartspell.vertxorbit</id>
+    <name>Vert.x Orbit</name>
+    <vendor email="amirhanordobaev@example.com" url="https://github.com/heartspell/vertx-orbit">amirhanordobaev (heartspell)</vendor>
+
+    <description>
+        <![CDATA[
+        <p>
+            Vert.x Orbit is a Kotlin Vert.x verticle lifecycle, deployment, and resource navigator
+            for IntelliJ IDEA.
+        </p>
+        <p>
+            Repository: <a href="https://github.com/heartspell/vertx-orbit">heartspell/vertx-orbit</a>
+        </p>
+        <p>
+            Settings: Settings | Tools | Vert.x Orbit.
+        </p>
+        ]]>
+    </description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>org.jetbrains.kotlin</depends>
+
+    <incompatible-with>dev.vertx-lifeline</incompatible-with>
+    <incompatible-with>dev.vertx-orbit</incompatible-with>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <localInspection
+            language="kotlin"
+            shortName="VertxLifecycle"
+            displayName="Vert.x lifecycle issue"
+            groupName="Vert.x Orbit"
+            enabledByDefault="true"
+            level="WARNING"
+            implementationClass="com.heartspell.vertxorbit.inspection.VertxLifecycleInspection"/>
+
+        <toolWindow
+            id="Vert.x Orbit"
+            anchor="right"
+            icon="/icons/lifeline.svg"
+            canCloseContents="false"
+            factoryClass="com.heartspell.vertxorbit.ui.VertxOrbitToolWindowFactory"/>
+
+        <applicationConfigurable
+            id="com.heartspell.vertxorbit.settings"
+            parentId="tools"
+            displayName="Vert.x Orbit"
+            instance="com.heartspell.vertxorbit.settings.VertxOrbitConfigurable"/>
+    </extensions>
+
+    <extensions defaultExtensionNs="org.jetbrains.kotlin">
+        <supportsKotlinPluginMode supportsK2="true"/>
+    </extensions>
+</idea-plugin>
