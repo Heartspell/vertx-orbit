@@ -1,6 +1,8 @@
 # Vert.x Orbit
 
-Vert.x Orbit is an IntelliJ IDEA plugin for Kotlin projects that use Vert.x verticles.
+[![GitHub stars](https://img.shields.io/github/stars/heartspell/vertx-orbit?style=flat)](https://github.com/heartspell/vertx-orbit/stargazers)
+[![GitHub release](https://img.shields.io/github/v/release/heartspell/vertx-orbit)](https://github.com/heartspell/vertx-orbit/releases)
+Vert.x Orbit is an IntelliJ IDEA plugin for Kotlin projects that use Eclipse Vert.x verticles.
 
 It gives the current editor a small lifecycle map: which verticles are in the file, where they are deployed, what happens during `start`, what keeps running, and what should be checked before `stop`.
 
