@@ -1,14 +1,18 @@
+<div align="center">
+
 # Vert.x Orbit
 
-[![GitHub stars](https://img.shields.io/github/stars/heartspell/vertx-orbit?style=flat)](https://github.com/heartspell/vertx-orbit/stargazers)
-[![GitHub release](https://img.shields.io/github/v/release/heartspell/vertx-orbit)](https://github.com/heartspell/vertx-orbit/releases)
-Vert.x Orbit is an IntelliJ IDEA plugin for Kotlin projects that use Eclipse Vert.x verticles.
+**A focused lifecycle companion for Vert.x Kotlin projects in IntelliJ IDEA.**
 
-It gives the current editor a small lifecycle map: which verticles are in the file, where they are deployed, what happens during `start`, what keeps running, and what should be checked before `stop`.
+[![JetBrains Plugins](https://img.shields.io/badge/JetBrains%20Marketplace-Vert.x%20Orbit-000000?style=for-the-badge&logo=jetbrains&logoColor=white)](https://plugins.jetbrains.com/plugin/33185-vert-x-orbit)
 
-Author: amirhanordobaev (heartspell)  
-Repository: https://github.com/heartspell/vertx-orbit
-License: MIT
+[![GitHub release](https://img.shields.io/github/v/release/heartspell/vertx-orbit?style=flat-square&color=blue)](https://github.com/heartspell/vertx-orbit/releases)
+[![GitHub stars](https://img.shields.io/github/stars/heartspell/vertx-orbit?style=flat-square&color=gold)](https://github.com/heartspell/vertx-orbit/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+
+---
+
+</div>
 
 ## What It Shows
 
